@@ -1,2 +1,3 @@
 # SingletonAFNetworking
-封装 AFNetworking 单例 Demo
+> **封装 AFNetworking 单例 Demo**
+> AFNetworking Github: https://github.com/AFNetworking/AFNetworking
