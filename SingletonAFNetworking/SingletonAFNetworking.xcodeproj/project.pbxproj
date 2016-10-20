@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D99B0B0C1DB8C04D00676EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B0B0B1DB8C04D00676EF7 /* AppDelegate.swift */; };
+		D99B0B0E1DB8C04D00676EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B0B0D1DB8C04D00676EF7 /* ViewController.swift */; };
+		D99B0B111DB8C04D00676EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99B0B0F1DB8C04D00676EF7 /* Main.storyboard */; };
+		D99B0B131DB8C04D00676EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99B0B121DB8C04D00676EF7 /* Assets.xcassets */; };
+		D99B0B161DB8C04D00676EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99B0B141DB8C04D00676EF7 /* LaunchScreen.storyboard */; };
+		D99B0B2B1DB8C06200676EF7 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D99B0B1F1DB8C06200676EF7 /* AFHTTPSessionManager.m */; };
+		D99B0B2C1DB8C06200676EF7 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D99B0B221DB8C06200676EF7 /* AFNetworkReachabilityManager.m */; };
+		D99B0B2D1DB8C06200676EF7 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = D99B0B241DB8C06200676EF7 /* AFSecurityPolicy.m */; };
+		D99B0B2E1DB8C06200676EF7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D99B0B261DB8C06200676EF7 /* AFURLRequestSerialization.m */; };
+		D99B0B2F1DB8C06200676EF7 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D99B0B281DB8C06200676EF7 /* AFURLResponseSerialization.m */; };
+		D99B0B301DB8C06200676EF7 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D99B0B2A1DB8C06200676EF7 /* AFURLSessionManager.m */; };
+		D99B0B321DB8C0C900676EF7 /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B0B311DB8C0C900676EF7 /* NetworkTool.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D99B0B081DB8C04D00676EF7 /* SingletonAFNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingletonAFNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99B0B0B1DB8C04D00676EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D99B0B0D1DB8C04D00676EF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D99B0B101DB8C04D00676EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D99B0B121DB8C04D00676EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D99B0B151DB8C04D00676EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D99B0B171DB8C04D00676EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D99B0B1E1DB8C06200676EF7 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		D99B0B1F1DB8C06200676EF7 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		D99B0B201DB8C06200676EF7 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		D99B0B211DB8C06200676EF7 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		D99B0B221DB8C06200676EF7 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		D99B0B231DB8C06200676EF7 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		D99B0B241DB8C06200676EF7 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		D99B0B251DB8C06200676EF7 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		D99B0B261DB8C06200676EF7 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		D99B0B271DB8C06200676EF7 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		D99B0B281DB8C06200676EF7 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		D99B0B291DB8C06200676EF7 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		D99B0B2A1DB8C06200676EF7 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		D99B0B311DB8C0C900676EF7 /* NetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D99B0B051DB8C04D00676EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D99B0AFF1DB8C04D00676EF7 = {
+			isa = PBXGroup;
+			children = (
+				D99B0B0A1DB8C04D00676EF7 /* SingletonAFNetworking */,
+				D99B0B091DB8C04D00676EF7 /* Products */,
+				D99B0B1D1DB8C06200676EF7 /* AFNetworking */,
+			);
+			sourceTree = "<group>";
+		};
+		D99B0B091DB8C04D00676EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D99B0B081DB8C04D00676EF7 /* SingletonAFNetworking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D99B0B0A1DB8C04D00676EF7 /* SingletonAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				D99B0B0B1DB8C04D00676EF7 /* AppDelegate.swift */,
+				D99B0B0D1DB8C04D00676EF7 /* ViewController.swift */,
+				D99B0B311DB8C0C900676EF7 /* NetworkTool.swift */,
+				D99B0B0F1DB8C04D00676EF7 /* Main.storyboard */,
+				D99B0B121DB8C04D00676EF7 /* Assets.xcassets */,
+				D99B0B141DB8C04D00676EF7 /* LaunchScreen.storyboard */,
+				D99B0B171DB8C04D00676EF7 /* Info.plist */,
+			);
+			path = SingletonAFNetworking;
+			sourceTree = "<group>";
+		};
+		D99B0B1D1DB8C06200676EF7 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				D99B0B1E1DB8C06200676EF7 /* AFHTTPSessionManager.h */,
+				D99B0B1F1DB8C06200676EF7 /* AFHTTPSessionManager.m */,
+				D99B0B201DB8C06200676EF7 /* AFNetworking.h */,
+				D99B0B211DB8C06200676EF7 /* AFNetworkReachabilityManager.h */,
+				D99B0B221DB8C06200676EF7 /* AFNetworkReachabilityManager.m */,
+				D99B0B231DB8C06200676EF7 /* AFSecurityPolicy.h */,
+				D99B0B241DB8C06200676EF7 /* AFSecurityPolicy.m */,
+				D99B0B251DB8C06200676EF7 /* AFURLRequestSerialization.h */,
+				D99B0B261DB8C06200676EF7 /* AFURLRequestSerialization.m */,
+				D99B0B271DB8C06200676EF7 /* AFURLResponseSerialization.h */,
+				D99B0B281DB8C06200676EF7 /* AFURLResponseSerialization.m */,
+				D99B0B291DB8C06200676EF7 /* AFURLSessionManager.h */,
+				D99B0B2A1DB8C06200676EF7 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D99B0B071DB8C04D00676EF7 /* SingletonAFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D99B0B1A1DB8C04D00676EF7 /* Build configuration list for PBXNativeTarget "SingletonAFNetworking" */;
+			buildPhases = (
+				D99B0B041DB8C04D00676EF7 /* Sources */,
+				D99B0B051DB8C04D00676EF7 /* Frameworks */,
+				D99B0B061DB8C04D00676EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingletonAFNetworking;
+			productName = SingletonAFNetworking;
+			productReference = D99B0B081DB8C04D00676EF7 /* SingletonAFNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D99B0B001DB8C04D00676EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "zhi zhou";
+				TargetAttributes = {
+					D99B0B071DB8C04D00676EF7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4UH48N8U4B;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D99B0B031DB8C04D00676EF7 /* Build configuration list for PBXProject "SingletonAFNetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D99B0AFF1DB8C04D00676EF7;
+			productRefGroup = D99B0B091DB8C04D00676EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D99B0B071DB8C04D00676EF7 /* SingletonAFNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D99B0B061DB8C04D00676EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99B0B161DB8C04D00676EF7 /* LaunchScreen.storyboard in Resources */,
+				D99B0B131DB8C04D00676EF7 /* Assets.xcassets in Resources */,
+				D99B0B111DB8C04D00676EF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D99B0B041DB8C04D00676EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99B0B2B1DB8C06200676EF7 /* AFHTTPSessionManager.m in Sources */,
+				D99B0B321DB8C0C900676EF7 /* NetworkTool.swift in Sources */,
+				D99B0B301DB8C06200676EF7 /* AFURLSessionManager.m in Sources */,
+				D99B0B2D1DB8C06200676EF7 /* AFSecurityPolicy.m in Sources */,
+				D99B0B0E1DB8C04D00676EF7 /* ViewController.swift in Sources */,
+				D99B0B2E1DB8C06200676EF7 /* AFURLRequestSerialization.m in Sources */,
+				D99B0B2C1DB8C06200676EF7 /* AFNetworkReachabilityManager.m in Sources */,
+				D99B0B2F1DB8C06200676EF7 /* AFURLResponseSerialization.m in Sources */,
+				D99B0B0C1DB8C04D00676EF7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D99B0B0F1DB8C04D00676EF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D99B0B101DB8C04D00676EF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D99B0B141DB8C04D00676EF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D99B0B151DB8C04D00676EF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D99B0B181DB8C04D00676EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D99B0B191DB8C04D00676EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D99B0B1B1DB8C04D00676EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UH48N8U4B;
+				INFOPLIST_FILE = SingletonAFNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhi.SingletonAFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/zhi/Desktop/SingletonAFNetworking/SingletonAFNetworking/AFNetworking/AFNetworking.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D99B0B1C1DB8C04D00676EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UH48N8U4B;
+				INFOPLIST_FILE = SingletonAFNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhi.SingletonAFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/zhi/Desktop/SingletonAFNetworking/SingletonAFNetworking/AFNetworking/AFNetworking.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D99B0B031DB8C04D00676EF7 /* Build configuration list for PBXProject "SingletonAFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99B0B181DB8C04D00676EF7 /* Debug */,
+				D99B0B191DB8C04D00676EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D99B0B1A1DB8C04D00676EF7 /* Build configuration list for PBXNativeTarget "SingletonAFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99B0B1B1DB8C04D00676EF7 /* Debug */,
+				D99B0B1C1DB8C04D00676EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D99B0B001DB8C04D00676EF7 /* Project object */;
+}
